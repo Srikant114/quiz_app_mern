@@ -1,0 +1,23 @@
+.wait{
+  margin:40vh 0 0 30vw;
+}
+input[type=radio]:checked ~ .check {
+    border: 5px solid var(--primary-color)
+  }
+  
+  input[type=radio]:checked ~ .check::before{
+    background: var(--primary-color)
+  }
+  
+  input[type=radio]:checked ~ .text-primary{
+    color: var(--primary-color)
+  } 
+  
+  /* To get selected option we are using this checked class */
+  .checked {
+    border: 5px solid var(--primary-color) !important;
+  }
+  
+  .checked::before{
+    background: var(--primary-color)
+  }

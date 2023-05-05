@@ -1,0 +1,44 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2em 2em;
+  gap: .5em;
+}
+.container .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.container .flex span {
+  font-size: 1.4em;
+  color: black;
+  
+}
+.container .flex span.achive {
+  /* font-weight: bold; */
+  color: red;
+  color: green;
+}
+table {
+  width: 100%;
+  margin-left: -1.2rem ;
+}
+.table-header {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  background: #212121;
+  padding: 10px 0;
+}
+.table-body {
+  font-size: 1em;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 10px 0;
+}
+.table-header > tr > td {
+  border-radius: 5px;
+}
